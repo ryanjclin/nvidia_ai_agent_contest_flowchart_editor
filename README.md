@@ -12,12 +12,14 @@ but use this to facilitate the process. Flowchart editor not only captures the f
 ## How to run 
 
 ### First, enter you API key in flowchart_editor.py:
-
-- <p style="background-color: #f0f0f0; padding: 10px;">os.environ["NVIDIA_API_KEY"] = "your nvidia key"</p>
+<pre style="background-color: #f0f0f0; padding: 10px;">
+os.environ["NVIDIA_API_KEY"] = "your nvidia key"
+</pre>
 
 ### Secondly, execute flowchart editor and input your image path:
-
-- <p style="background-color: #f0f0f0; padding: 10px;">python3 flowchart_editor.py</p>
+<pre style="background-color: #f0f0f0; padding: 10px;">
+python3 flowchart_editor.py
+</pre>
 
 ### requirement:
 - python-pptx
