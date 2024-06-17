@@ -2,7 +2,7 @@
 
 This project, Flowchart Editor, aims to transform an image of a flowchart into a slide (PowerPoint) format seamlessly. With this tool, users can avoid the tedious task of redrawing flowcharts from scratch by simply uploading an image of the flowchart. Flowchart Editor not only captures the structure of each block but also identifies specific features such as shape, color, and text.
 
-### Features
+## Features
 - Automatic Flowchart Recognition: Easily convert flowchart images to editable PowerPoint slides.
 - Detail Preservation: Maintains the original shapes, colors, and text from the image.
 - Editable Output: The generated PowerPoint slides are fully editable, allowing further customization.
