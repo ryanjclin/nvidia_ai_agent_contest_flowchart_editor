@@ -36,6 +36,8 @@ python3 flowchart_editor.py
 </pre>
 
 ### Requirements (using poetry add):
+- Python==3.10.8
+- Poetry==1.8.3
 - python-pptx==0.6.23     
 - langchain==0.2.3  
 - FlagEmbedding=1.2.10
