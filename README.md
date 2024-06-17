@@ -35,7 +35,7 @@ os.environ["NVIDIA_API_KEY"] = "your nvidia key"
 python3 flowchart_editor.py
 </pre>
 
-### Requirements:
-- python-pptx
-- langchain
-- FlagEmbedding
+### Requirements (using poetry add):
+- python-pptx==0.6.23     
+- langchain==0.2.3  
+- FlagEmbedding=1.2.10
