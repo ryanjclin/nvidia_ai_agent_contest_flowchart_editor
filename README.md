@@ -35,7 +35,7 @@ os.environ["NVIDIA_API_KEY"] = "your nvidia key"
 python3 flowchart_editor.py
 </pre>
 
-### Requirements (using poetry add):
+### Requirements (using poetry):
 - Python==3.10.8
 - Poetry==1.8.3
 - python-pptx==0.6.23     
