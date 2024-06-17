@@ -9,7 +9,15 @@ This project, Flowchart Editor, aims to transform an image of a flowchart into a
 - User-Friendly Interface: Simple and intuitive interface for easy navigation and operation.
 
 
-## work flow 
+## Workflow 
+- Upload Flowchart Image:
+Upload the image of the flowchart that you wish to convert.
+
+- Flowchart Analysis:
+The editor analyzes the flowchart, identifying and preserving the structure and features.
+
+- Generate Editable Slide:
+The tool generates an editable PowerPoint slide, retaining the original details.
 
 <img width="216" alt="image" src="https://github.com/ryanrwei/nvidia_ai_agent_contest_flowchart_editor/assets/55873378/9657bbd9-264c-4b82-abeb-022628862c58">
 
@@ -27,7 +35,7 @@ os.environ["NVIDIA_API_KEY"] = "your nvidia key"
 python3 flowchart_editor.py
 </pre>
 
-### requirement:
+### Requirements:
 - python-pptx
 - langchain
 - FlagEmbedding
