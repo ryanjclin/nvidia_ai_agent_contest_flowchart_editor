@@ -11,8 +11,13 @@ but use this to facilitate the process. Flowchart editor not only captures the f
 
 ## How to run 
 
-### First, enter you API key in here:
+### First, enter you API key in flowchart_editor.py:
 - <font color=#808080> os.environ["NVIDIA_API_KEY"] = "your nvidia key" </font>
 
 ### Secondly, execute flowchart editor and input your image path:
 - python3 flowchart_editor.py
+
+### requirement:
+- python-pptx
+- langchain
+- FlagEmbedding
