@@ -184,12 +184,13 @@ def image_object_detection(image_b64):
     return JSON_info
 
 
-def running_langchain():
+if __name__ == '__main__':
     
     def encode_image(image_path: str) -> str:
         with open(image_path, "rb") as image_file:
             return base64.b64encode(image_file.read()).decode("utf-8")
-    image_b64 = encode_image("image path")
+    image_path = input("enter the image path:  ")
+    image_b64 = encode_image(f"{image_path}")
 
     ### ------------------------------- object detection -------------------------------
     JSON_info = image_object_detection(image_b64)
